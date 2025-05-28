@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/059e3b9a5e.js" crossorigin="anonymous"></script> <!-- Metemos el link referenciando a fontawesome para que me cargue los iconos. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="JS/parallax.min.js"></script>
+    <link rel="stylesheet" href="CSS\MiCss.css">
+    <title>Maravilla Marítima</title>
+</head>
+
+<!-- Páginas de referencia: 1. OceanYacht - Yacht Club Premium Moto CMS 3 Template. MonsterTemplate // 2. AYACHTS.com -->
+
+<body>
+
+    <div class="detras-cookies" id="detrascookies"></div>
+    <div class="barraaceptacion" id="barraaceptacion">
+        <h1><i class="fas fa-cookie-bite"></i>Utilizamos cookies</h1>
+        <p>Usamos cookies para mejorar su experiencia de navegación en nuestra web, para mostrarle contenidos personalizados y para analizar el tráfico en nuestra web.</p>
+        <div class="contenedor-menu" id="contenedor-menu">
+          <a href="#" class="aceptar-cookies">Aceptar cookies</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-sm-nowrap flex-wrap">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-brand flex-grow-1"><i class="fa fa-anchor" aria-hidden="true"></i>Maravilla Marítima</span>
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML\Servicio.html"><i class="fa fa-briefcase" aria-hidden="true"></i></i>Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML\Producto.html"><i class="fa fa-ship" aria-hidden="true"></i>Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML\Contacto.html"><i class="fas fa-info-circle"></i>Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-grow-1">
+            </div>
+        </div>
+    </nav>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="Multimedia\Fotos\recreo.jpg">
+        <h1 class="principio-scroll">Explore.<br>Descubra.<br>Viva.</h1>
+        <h3 class="segundo-texto-scroll">Al alquilar o comprar un yate de lujo se pueden descubrir muchos lugares nuevos a la vez que disfrutas de todas las comodidades.</h3>
+    </div>
+
+    <div class="primera-parte">
+        <div class="row">
+            <div class="col texto-primera-parte">
+                <p class="parte-superior-primera-parte">RESPECTO A NOSOTROS</p>
+                <h1 class="titulo-texto-primera-parte">¡Disfrute la vida y escape a su nuevo estilo de vida en el agua!</h1>
+                <h3><br>Nuestra página ofrece la experiencia más lujosa, acogedora y tranquilizante en mar, ríos, pantanos o cualquier cuerpo acuático que sea de su agrado.</h3>
+                <h5><br>Tanto si le interesa comprar un yate de lujo, o alquilar un crucero para disfrutar junto a sus seres queridos nuestra compañía le ofrece todas las posibilidades que necesite, ya sea para sentir la velocidad en el agua con motos de agua o para tener un tiempo de descanso con la familia en un yate de lujo con todo incluido desde el primer momento.</h5>
+            </div>
+            <div class="col">
+                <img class="puerto" src="Multimedia/Fotos/PuertoLujoso.png" alt="PuertoLujoso photo">
+            </div>
+        </div>
+    </div>
+
+    <div class="segunda-parte">
+        <div class="row">
+            <div class="col">
+                <img class="foto-lancha" src="Multimedia\Fotos\lancha.jpg" alt="lancha photo">
+            </div>
+            <div class="col">
+                <p class="parte-superior-segunda-parte">EXCELENCIA DE CARTA</p>
+                <h1 class="titulo-texto-segunda-parte">Nuestros Servicios</h1>
+                <h5 class="texto-segunda-parte"><br>Al defender la excelencia en el servicio, la ética y la sostenibilidad, nuestra empresa es respetada por los propietarios, la tripulación, los compradores, los fletadores, los constructores de yates y los profesionales de la industria. De ahí proviene la gran cantidad de servicios que prestamos a nuestros clientes, posicionándonos un escalafón por encima respecto a la competencia.</h5>   
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-window-2" data-parallax="scroll" data-image-src="Multimedia\Fotos\playaParadisiaca.png">
+        <h1 class="texto-scroll-2">Empiece a ver lo que serán sus mejores vacaciones:</h1>
+        <button type="submit" id="productosButton" class="boton-productos">PRODUCTOS</button>        
+    </div>
+    
+    <div class="tercera-parte">
+        <div class="row-tercera-parte">
+            <p class="parte-superior-tercera-parte">Destinos Privilegiados</p>
+            <h1 class="titulo-texto-tercera-parte">Destinos de ensueño</h1>
+            <h5 class="texto-tercera-parte"><br>Para ofrecerle la mejor experiencia en sus vacaciones, dispone también de una lista de destinos privilegiados de los que puede escojer los que más le interesen. Ya sea por su cuenta, dando paseos en bote a motor, o alquilando un capitán para su barco se asegura que con nosotros tendrá recuerdos inolvidables en el mar sea donde sea que esté navegando.</h5>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="foto-bahamas" id="fotoBahamas" src="Multimedia\Fotos\bahamas.png" alt="bahamas photo">
+                <h3 class="titulo-foto-bahamas">Las Bahamas</h3>
+                <h6 class="texto-bahamas">En las Bahamas hay una atracción genial para turistas que es la presencia de cerdos nadadores, aunque no se sabe por qué están ahí, puedes acercarte en tu barco y nadar con ellos en una interacción única.</h6>
+            </div>
+            <div class="col">
+                <img class="foto-caribe" id="fotoCaribe" src="Multimedia\Fotos\caribe.png" alt="caribe photo">
+                <h3 class="titulo-foto-caribe">El Caribe</h3>
+                <h6 class="texto-caribe">Las playas del caribe no solo son famosas por su arena dorada y su tiempo tropical, también por la presencia de microorganismos bioluminiscentes en el agua que hacen que este "brille" por la noche. El espectáculo perfecto para turistas.</h6>
+            </div>
+            <div class="col">
+                <img class="foto-miami" id="fotoMiami" src="Multimedia\Fotos\miami.png" alt="miami photo">
+                <h3 class="titulo-foto-miami">Miami Bay</h3>
+                <h6 class="texto-miami">La arena de las playas de Miami no es autóctona, ya que en 1920 cuando se intentaron embellecer estas playas apostaron por importar arena fina y de tono claro procedente de las Bahamas, dando lugar a las hermosas playas que conocemos.</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="titulo-carrusel">Cada barco tiene su propio destino</h1>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Multimedia/Fotos/lancha.jpg" class="d-block w-100" alt="lancha familia">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">Una lancha con la familia</h1>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="Multimedia/Fotos/playa.png" class="d-block w-100" alt="costas griegas">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">en costas griegas.</h1>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="Multimedia/Fotos/lanchalambo.png" class="d-block w-100" alt="lancha lamborghini">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">Una lancha que pueda ir a altas velocidades</h1>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="Multimedia/Fotos/acantilados.png" class="d-block w-100" alt="playas con acantilados">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">disfrutando estas maravillas naturales.</h1>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="Multimedia/Fotos/yatelujoso.png" class="d-block w-100" alt="yate lujoso">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">Disfrutar en un yate de lujo</h1>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="Multimedia/Fotos/playamenorca.png" class="d-block w-100" alt="playa menorca">
+                <div class="carousel-caption">
+                    <h1 class="carrusel-texto">bañándote en aguas cristalinas en Menorca.</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="row">
+                <div class="col">
+                    <h3 class="footer-maravillaMaritima"><i class="fa fa-anchor" aria-hidden="true"></i>Maravilla Marítima</h3>
+                    <a target="_blank" href="https://www.facebook.com/?locale=es_ES"><img src="Multimedia/Fotos/FacebookLogo.jpeg" alt="facebook logo" class="footer-logos"></a>
+                    <a target="_blank" href="https://twitter.com/?lang=es"><img src="Multimedia/Fotos/XLogo.JPEG" alt="X logo" class="footer-logos"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="Multimedia/Fotos/InstagramLogo.jpeg" alt="instagram logo" class="footer-logos"></a>
+                    <a target="_blank" href="https://www.pinterest.es/"><img src="Multimedia/Fotos/PinterestLogo.jpeg" alt="pinterest logo" class="footer-logos"></a>
+                    <a target="_blank" href="https://www.google.com/intl/es/gmail/about/"><img src="Multimedia/Fotos/GmailLogo.jpeg" alt="pinterest logo" class="footer-logos"></a>
+                </div>
+                <div class="col">
+                    <h4 class="footer-address">Dirección</h4>
+                    <p class="footer-adress-text">Carretera Pozuelo, km 1800, 28223, Majadahonda, Madrid</p>
+                    <h4 class="footer-phone">Teléfono</h4>
+                    <p class="footer-phone-number"> (+34) 620258444</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS\jquery-3.7.1.min.js"></script>
+    <script src="JS\JS.js"></script>
+    <script src="JS\cookies.js"></script>
+    <script src="JS/parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
