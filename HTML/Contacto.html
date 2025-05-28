@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/059e3b9a5e.js" crossorigin="anonymous"></script>  <!-- Metemos el link referenciando a fontawesome para que me cargue los iconos. -->
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script src="../JS/parallax.min.js"></script>
+    <link rel="stylesheet" href="../CSS\MiCss.css">
+    <title>Maravilla Marítima</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-sm-nowrap flex-wrap">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-brand flex-grow-1"><i class="fa fa-anchor" aria-hidden="true"></i>Maravilla Marítima</span>
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Servicio.html"><i class="fa fa-briefcase" aria-hidden="true"></i></i>Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Producto.html"><i class="fa fa-ship" aria-hidden="true"></i>Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contacto.html"><i class="fas fa-info-circle"></i>Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-grow-1">
+                <!--spacer-->
+            </div>
+        </div>
+    </nav>
+
+    <div class="parallax-window-contacto" data-parallax="scroll" data-image-src="../Multimedia/Fotos/recreo.jpg">        
+        <h1 class="principio-scroll">Contáctenos:</h1>
+        <h3 class="segundo-texto-scroll">Contacte con nosotros sobre cualquier duda, sugerencia o intención que pueda cerciorarle sin ningún tipo de problema.</h3>
+    </div>
+
+    <div class="mapa-datos-contacto">
+        <div class="row">
+            <div class="col">
+                <iframe class="mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12146.520178302495!2d-3.839644684008788!3d40.43919016885492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4185273e5a2a07%3A0xc68581b3d16d99ee!2sUniversidad%20Francisco%20de%20Vitoria%20-%20Escuela%20de%20Postgrado!5e0!3m2!1ses!2ses!4v1700480172492!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col">
+                <h2 class="titulo-contacto-contactenos">Contáctenos</h2>
+                <h5 class="titulo-texto-contacto">DIRECCIÓN</h5>
+                <h5 class="texto-contacto">Carretera Pozuelo, km. 1800, 28223 Majadahonda, Madrid, España.</h5>
+                <h5 class="titulo-texto-contacto">TELÉFONO</h5>
+                <h5 class="texto-contacto">(+34) 620258444</h5>
+                <h5 class="titulo-texto-contacto">CORREO ELECTRÓNICO</h5>
+                <h5 class="texto-contacto">9204890@alumnos.ufv.es</h5>
+            </div>
+            <div class="col">
+                <h2 class="titulo-contacto-formulario">Mándenos un mensaje</h2>
+                <form class="contenedor-formulario" id="miFormulario" method="get" action="https://httpbin.org/get">
+                    <div class="mb-1">
+                      <label for="Nombre">Nombre</label>
+                      <input class="borde-contenedor" type="text" id="Nombre" name="Nombre" placeholder="Nombre:">
+                    </div>
+                    <div class="mb-1">
+                      <label for="Apellidos">Apellidos</label>
+                      <input class="borde-contenedor" type="text" id="Apellidos" name="Apellidos" placeholder="Apellidos:">
+                    </div>
+                    <div class="mb-1">
+                      <label for="Mail">Mail</label>
+                      <input class="borde-contenedor" type="email" id="Mail" name="Mail" placeholder="Ejemplo: correo@gmail.com">
+                    </div>
+                    <div class="mb-1">
+                      <label for="telefono">Número de teléfono</label>
+                      <input class="borde-contenedor" type="number" id="telefono" name="Telefono" placeholder="Introduzca su número de teléfono">
+                      <select id="Telefono" name="codigo telefonico">
+                        <option value="+34">España (+34)</option>
+                        <option value="+1">Estados Unidos (+1)</option>
+                        <option value="+49">Alemania (+49)</option>
+                        <option value="+44">Reino Unido (+44)</option>
+                        <option value="+33">Francia (+33)</option>
+                        <option value="+39">Italia (+39)</option>
+                      </select>
+                    </div>
+                    <button type="submit" id="contactoButton" class="boton-contacto">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+       
+    <footer class="footer-contacto">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col">
+                    <h3 class="footer-maravillaMaritima"><i class="fa fa-anchor" aria-hidden="true"></i>Maravilla Marítima</h3>
+                    <a target="_blank" href="https://www.facebook.com/?locale=es_ES"><img src="../Multimedia/Fotos/FacebookLogo.jpeg" alt="facebook logo" class="footer-logos-contacto"></a>
+                    <a target="_blank" href="https://twitter.com/?lang=es"><img src="../Multimedia/Fotos/XLogo.JPEG" alt="X logo" class="footer-logos-contacto"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="../Multimedia/Fotos/InstagramLogo.jpeg" alt="instagram logo" class="footer-logos-contacto"></a>
+                    <a target="_blank" href="https://www.pinterest.es/"><img src="../Multimedia/Fotos/PinterestLogo.jpeg" alt="pinterest logo" class="footer-logos-contacto"></a>
+                    <a target="_blank" href="https://www.google.com/intl/es/gmail/about/"><img src="../Multimedia/Fotos/GmailLogo.jpeg" alt="pinterest logo" class="footer-logos-contacto"></a>
+                </div>
+                <div class="col">
+                    <img src="../Multimedia/Fotos/mifoto.jpg" class="foto-footer" alt="mi foto">
+                </div>
+                <div class="col">
+                    <h4 class="footer-address">Dirección</h4>
+                    <p class="footer-adress-text-contacto">Carretera Pozuelo, km 1800, 28223, Majadahonda, Madrid</p>
+                    <h4 class="footer-phone">Teléfono</h4>
+                    <p class="footer-phone-number-contacto"> (+34) 620258444</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../JS/Formulario.js"></script>
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script src="../JS/JS.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../JS/parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
